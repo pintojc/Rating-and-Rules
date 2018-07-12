@@ -1,0 +1,15 @@
+{
+    "quote_id":123455,
+    "quote_features":
+    {
+        "year_built":1990,
+        "roof_age":15,
+        "roof_material":"shingle",
+        "foundation":"basement",
+        "construction":"frame",
+        "stories":2,
+        "residence":"single family",
+        "distance_to_coast":2,
+        "remodel_year":2010
+    }
+}

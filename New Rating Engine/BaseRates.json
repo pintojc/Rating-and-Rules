@@ -1,0 +1,47 @@
+{
+    "table":"BaseRates",
+    "target_columns":[
+        "f_other_perils",
+        "f_wind_hail",
+        "f_named_storm"
+    ],
+    "keys":[
+        {
+            "column":"i_company_business_id",
+            "filter":"=",
+            "filter_value":1064
+        },
+        {
+            "column":"d_effective_date",
+            "filter":"<=",
+            "filter_value":"1/1/2019"
+        },
+        {
+            "column":"b_expired",
+            "filter":"=",
+            "filter_value":0
+        },
+        {
+            "column":"s_territory",
+            "filter":"=",
+            "filter_value":32535
+        }
+        
+    ],
+    "results":
+        [
+            {
+                "source":"f_other_perils",
+                "target":"otherPerilsVar"
+            },
+            {
+                "source":"f_wind_hail",
+                "target":"windHailVar"
+            },
+            {
+                "source":"f_named_storm",
+                "target":"namedStormVar"
+            }
+        ]
+
+}

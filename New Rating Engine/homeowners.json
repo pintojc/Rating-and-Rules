@@ -1,0 +1,89 @@
+{
+    "name":"HO3 Base Premium Rater",
+    "carrier_id":1064,
+    "rules":
+    {
+        "variables":[
+            "aop_base", "ns_base", "wh_base", "zip", "microzone", "county", "dist_to_coast", "coverage_a", "coverage_b", "coverage_c", "coverage_d", "aop_ded", "ns_ded",
+            "construction_type", "ppc", "year_built", "num_stories", "square_footage", "roof_material", "roof_shape", "roof_age", "acv_roof", "roof_exclusion", "num_claims", 
+            "wind_mit", "water_mit", "theft_fire_protection", "full_sprinkler", "gated_community", "coverage_e", "coverage_f"
+        ],
+        "lookups":[
+            {
+                "lookup_name":"BaseRates",
+                "lookup_map":[
+                    {
+                        "source":"quote_company_id",
+                        "column":"i_company_business_id"
+                    },
+                    {
+                        "source":"effective_date",
+                        "column":"d_effective_date"
+                    },
+                    {
+                        "source":"zip",
+                        "column":"s_territory"
+                    }
+                ]
+            }
+        ],
+        "steps":[
+           {
+            "name":"load_vars",
+            "type":"script",
+            "script":[
+"lc_var=2.100",
+"lcm_var=1.850",
+"ilf_var=1.680",
+"ded_var=.019",
+"pkg_var=1.000",
+"pkg_mod_var=1.000",
+"mod_var=1.000",
+"basis_var=1000",
+"factor_lookup_result = 'True'"
+],
+             "result_variable":"factor_lookup_result"
+         },
+         {
+               "name":"aop_base_rate",
+               "type":"script",
+               "script":[
+"base_rate_result = lc_var*lcm_var"
+],
+                "result_variable":"base_rate_result"
+            },
+            {
+                "name":"ns_base",
+                "type":"script",
+                "script":[
+"net_result = base_rate_result * (ilf_var - ded_var)"
+                ],
+                "result_variable":"net_result"
+            },
+            {
+                "name":"calc_rate_result",
+                "type":"script",
+                "script":[
+"rate_result = net_result * pkg_var * pkg_mod_var * mod_var"
+                ],
+                "result_variable":"rate_result"
+            },
+            {
+                "name":"calc_premium_result",
+                "type":"script",
+                "script":[
+"premium_result = (rate_result * float(exposure_amount)) / basis_var"
+                ],
+                "result_variable":"premium_result"
+            },
+            {
+                "name":"calc_premium_result",
+                "type":"script",
+                "script":[
+"factor_lookup_result = (otherPerilsVar + windHailVar) * namedStormVar"
+                ],
+                "result_variable":"factor_lookup_result"
+            }
+        ]
+    }
+}

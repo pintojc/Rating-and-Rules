@@ -1,0 +1,1829 @@
+{
+    "i_quote_id": 112618,
+    "referenceGuid": "3c12df51-58bd-436a-b50a-fb87a2b55098",
+    "Premiums": {
+        "f_total_policy_premium": 4928.0,
+        "f_paid_in_full_discount": 0.0,
+        "f_aop_premium": 1966.0,
+        "f_wind_hail_premium": 0.0,
+        "f_named_storm_premium": 2962.0,
+        "f_deduct_aop_limit": 1000.0,
+        "f_deduct_wind_hail_limit": 1000.0,
+        "f_deduct_named_storm_limit": 12377.8
+    },
+    "RatedPremiums": null,
+    "NamedPremiums": {
+        "f_total_premium": 91.0,
+        "Premiums": [
+            {
+                "s_name": "Extended Replacement Cost",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Coverage C Special Perils",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Increased Ordinance & Law",
+                "f_amount": 1.05,
+                "s_comment": "25%",
+                "f_premium": 90.99203
+            },
+            {
+                "s_name": "Utility Line Coverage",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Mechanical Breakdown",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Golf Carts",
+                "f_amount": 0.0,
+                "s_comment": "None",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Identity Fraud Expense",
+                "f_amount": 0.0,
+                "s_comment": "Requested",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Personal Injury",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Water Backup",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Loss Assessment",
+                "f_amount": 0.0,
+                "s_comment": "Included",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Increased Limits on BPP",
+                "f_amount": 0.0,
+                "s_comment": "Included",
+                "f_premium": 0.0
+            },
+            {
+                "s_name": "Coverage C Increased Limits",
+                "f_amount": 0.0,
+                "s_comment": "Declined",
+                "f_premium": 0.0
+            }
+        ]
+    },
+    "Fees": {
+        "f_total_fees": 250.0,
+        "FeeItem": [
+            {
+                "s_name": "Inspection Fee",
+                "i_rounding": 2,
+                "f_value": 100.0,
+                "s_field_name": "f_inspection_fee",
+                "s_group_key": "POLICY",
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_name": "Policy Fee",
+                "i_rounding": 2,
+                "f_value": 150.0,
+                "s_field_name": "f_policy_fee",
+                "s_group_key": "POLICY",
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_name": "Surcharge Fee",
+                "i_rounding": 2,
+                "f_value": 0.0,
+                "s_field_name": "f_surcharge_fee",
+                "s_group_key": "POLICY",
+                "b_is_visible": true,
+                "b_is_waivable": false
+            }
+        ]
+    },
+    "Taxes": {
+        "f_total_taxes": 258.9,
+        "TaxItem": [
+            {
+                "s_tax_qualifier": "",
+                "f_percent": 0.15,
+                "s_name": "0.1500% Stamping Fee on Inspection Fee of $100",
+                "i_rounding": 2,
+                "f_value": 0.15,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_tax_qualifier": "",
+                "f_percent": 0.15,
+                "s_name": "0.1500% Stamping Fee on Policy Fee of $150",
+                "i_rounding": 2,
+                "f_value": 0.22,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_tax_qualifier": "",
+                "f_percent": 0.15,
+                "s_name": "0.1500% Stamping Fee on Premium of $4,928",
+                "i_rounding": 2,
+                "f_value": 7.39,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_tax_qualifier": "",
+                "f_percent": 4.85,
+                "s_name": "4.8500% State Tax on Inspection Fee of $100",
+                "i_rounding": 2,
+                "f_value": 4.85,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_tax_qualifier": "",
+                "f_percent": 4.85,
+                "s_name": "4.8500% State Tax on Policy Fee of $150",
+                "i_rounding": 2,
+                "f_value": 7.28,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            },
+            {
+                "s_tax_qualifier": "",
+                "f_percent": 4.85,
+                "s_name": "4.8500% State Tax on Premium of $4,928",
+                "i_rounding": 2,
+                "f_value": 239.01,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            }
+        ]
+    },
+    "Tasks": null,
+    "ActualCoordinates": null,
+    "RuleAdjustments": null,
+    "Lookups": {
+        "BaseRates": {
+            "i_company_business_id": 1070,
+            "s_territory": "77581",
+            "f_other_perils": 682.0,
+            "f_wind_hail": 0.0,
+            "f_named_storm": 1658.0,
+            "SelectionCriteria": {
+                "id": 11952,
+                "d_effective_date": "4/1/2017 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1,
+                "d_last_modified": "2/26/2018 8:16:16 PM"
+            }
+        },
+        "BaseFactors": {
+            "i_company_business_id": 1070,
+            "i_coverage_a_thou_min": 0,
+            "i_coverage_a_thou_max": 10000,
+            "f_cov_a_increment": 1000.0,
+            "f_cov_a_factor_increment": 0.00467,
+            "f_policy_fee": 150.0,
+            "f_surcharge_fee": 0.0,
+            "f_maximum_adjustment": 0.55,
+            "f_paid_in_full_discount": 20.0,
+            "i_min_year_special_factors": 2006,
+            "f_default_sinkhole_surcharge": 0.0,
+            "SelectionCriteria": {
+                "id": 1388,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:44 PM"
+            }
+        },
+        "OtherPerilsTerritory": {
+            "i_company_business_id": 1070,
+            "s_postal_code": "77581",
+            "s_county": "Brazoria",
+            "s_territory": "77581",
+            "i_territory": 57,
+            "SelectionCriteria": {
+                "id": 52713,
+                "d_effective_date": "4/1/2017 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1,
+                "d_last_modified": "2/26/2018 8:17:56 PM"
+            }
+        },
+        "OtherPerilsRelativities": {
+            "i_company_business_id": 1070,
+            "s_territory": "77581",
+            "i_territory": 0,
+            "f_factor": 1.213,
+            "SelectionCriteria": {
+                "id": 8945,
+                "d_effective_date": "4/1/2017 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1,
+                "d_last_modified": "2/26/2018 8:18:29 PM"
+            }
+        },
+        "ProtectionClassFactor": {
+            "i_company_business_id": 1070,
+            "i_protection_class": 3,
+            "i_construction_type_id": 1164,
+            "f_factor": 1.0,
+            "SelectionCriteria": {
+                "id": 2585,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "ConstructionType": {
+            "i_company_business_id": 1070,
+            "s_construction_type": "Masonry-Veneer",
+            "SelectionCriteria": {
+                "id": 1164,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:44 PM"
+            }
+        },
+        "ConstructionFactor": {
+            "i_company_business_id": 1070,
+            "i_construction_type_id": 1164,
+            "f_wind_hail_factor": 1.0,
+            "f_named_storm_factor": 1.0,
+            "SelectionCriteria": {
+                "id": 1166,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:44 PM"
+            }
+        },
+        "RoofMaterial": {
+            "i_company_business_id": 1070,
+            "s_roof_code": "Asphalt Shingles",
+            "s_roof_material": "Asphalt shingle (55mph)",
+            "SelectionCriteria": {
+                "id": 1145,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:46 PM"
+            }
+        },
+        "CoverageA_Factor_List": [
+            {
+                "i_company_business_id": 1070,
+                "f_coverage_a_limit": 615000.0,
+                "f_factor": 1.883,
+                "SelectionCriteria": {
+                    "id": 10686,
+                    "d_effective_date": "1/1/2019 12:00:00 AM",
+                    "b_expired": false,
+                    "i_modified_by": 1008,
+                    "d_last_modified": "2/26/2018 8:46:44 PM"
+                }
+            },
+            {
+                "i_company_business_id": 1070,
+                "f_coverage_a_limit": 620000.0,
+                "f_factor": 1.891,
+                "SelectionCriteria": {
+                    "id": 10687,
+                    "d_effective_date": "1/1/2019 12:00:00 AM",
+                    "b_expired": false,
+                    "i_modified_by": 1008,
+                    "d_last_modified": "2/26/2018 8:46:44 PM"
+                }
+            },
+            {
+                "i_company_business_id": 0,
+                "f_coverage_a_limit": 616000.0,
+                "f_factor": 1.8846,
+                "SelectionCriteria": null
+            },
+            {
+                "i_company_business_id": 0,
+                "f_coverage_a_limit": 617000.0,
+                "f_factor": 1.88620007,
+                "SelectionCriteria": null
+            },
+            {
+                "i_company_business_id": 0,
+                "f_coverage_a_limit": 618000.0,
+                "f_factor": 1.8878001,
+                "SelectionCriteria": null
+            },
+            {
+                "i_company_business_id": 0,
+                "f_coverage_a_limit": 619000.0,
+                "f_factor": 1.88940012,
+                "SelectionCriteria": null
+            }
+        ],
+        "NumberOfStoriesFactor": {
+            "i_company_business_id": 1070,
+            "f_number_of_stories": 1.0,
+            "f_wind_hail_factor": 1.0,
+            "f_named_storm_factor": 1.075,
+            "SelectionCriteria": {
+                "id": 1056,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/28/2018 1:58:02 PM"
+            }
+        },
+        "CoverageA_Factor": {
+            "i_company_business_id": 0,
+            "f_coverage_a_limit": 619000.0,
+            "f_factor": 1.88940012,
+            "SelectionCriteria": null
+        },
+        "CoverageB_Factor": {
+            "i_company_business_id": 1070,
+            "f_pct_coverage_a": 25.0,
+            "f_other_perils_factor": 1.055,
+            "f_wind_hail_factor": 0.0,
+            "f_named_storm_factor": 1.077,
+            "SelectionCriteria": {
+                "id": 1208,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "CoverageC_Factor": {
+            "i_company_business_id": 1070,
+            "f_pct_coverage_a": 25.0,
+            "f_other_perils_factor": 0.915,
+            "f_wind_hail_factor": 0.0,
+            "f_named_storm_factor": 0.92,
+            "SelectionCriteria": {
+                "id": 1231,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "CoverageD_Factor": {
+            "i_company_business_id": 1070,
+            "f_pct_coverage_a": 25.0,
+            "f_other_perils_factor": 1.025,
+            "f_wind_hail_factor": 0.0,
+            "f_named_storm_factor": 1.025,
+            "SelectionCriteria": {
+                "id": 1100,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "HomeAgePerilsFactor": {
+            "i_company_business_id": 1070,
+            "i_home_age_min": 26,
+            "i_home_age_max": 40,
+            "f_other_perils_factor": 1.31,
+            "SelectionCriteria": {
+                "id": 1484,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "YearBuiltRange": {
+            "i_company_business_id": 1070,
+            "i_year_built_min": 1800,
+            "i_year_built_max": 1985,
+            "SelectionCriteria": {
+                "id": 1115,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "RoofAgeRange": {
+            "i_company_business_id": 1070,
+            "i_roof_age_min": 0,
+            "i_roof_age_max": 999,
+            "SelectionCriteria": {
+                "id": 1036,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "NamedStormFactor": {
+            "i_company_business_id": 1070,
+            "i_year_built_range_id": 1115,
+            "i_roof_age_range_id": 1036,
+            "f_named_storm_factor": 1.248,
+            "SelectionCriteria": {
+                "id": 1239,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/28/2018 4:58:22 PM"
+            }
+        },
+        "NamedStormDeductibleFactor": {
+            "i_company_business_id": 1070,
+            "i_coverage_a_thou_min": 0,
+            "i_coverage_a_thou_max": 9999,
+            "f_deductible": 0.0,
+            "f_pct_deductible": 2.0,
+            "f_named_storm_factor": 1.0,
+            "SelectionCriteria": {
+                "id": 1073,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "SquareFootageFactor": {
+            "i_company_business_id": 1070,
+            "i_square_footage_min": 2508,
+            "i_square_footage_max": 5005,
+            "f_other_perils_factor": 1.0,
+            "f_wind_hail_factor": 1.0,
+            "f_named_storm_factor": 0.75,
+            "SelectionCriteria": {
+                "id": 46,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:46 PM"
+            }
+        },
+        "OtherPerilsDeductibleFactor": {
+            "i_company_business_id": 1070,
+            "i_coverage_a_thou_min": 501,
+            "i_coverage_a_thou_max": 1000,
+            "f_deductible": 1000.0,
+            "f_other_perils_factor": 1.1,
+            "SelectionCriteria": {
+                "id": 722,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "RoofCoveringFactor": {
+            "i_company_business_id": 1070,
+            "i_roof_material_id": 1145,
+            "f_other_perils_factor": 1.02,
+            "f_wind_hail_factor": 0.0,
+            "f_named_storm_factor": 1.0,
+            "SelectionCriteria": {
+                "id": 57,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:46 PM"
+            }
+        },
+        "RoofAgeFactor": {
+            "i_company_business_id": 1070,
+            "i_roof_material_id": 1145,
+            "i_roof_age_min": 11,
+            "i_roof_age_max": 999,
+            "b_obvious_deterioration_distress": false,
+            "f_other_perils_factor": 1.079,
+            "f_wind_hail_factor": 1.0,
+            "f_named_storm_factor": 1.153,
+            "SelectionCriteria": {
+                "id": 284,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:46 PM"
+            }
+        },
+        "RoofShape": {
+            "i_company_business_id": 1070,
+            "s_roof_code": "Flat",
+            "s_roof_shape": "Flat Roof with Parapets",
+            "SelectionCriteria": {
+                "id": 66,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:46 PM"
+            }
+        },
+        "RoofShapeFactor": {
+            "i_company_business_id": 1070,
+            "i_roof_shape_id": 66,
+            "f_other_perils_factor": 0.0,
+            "f_wind_hail_factor": 0.0,
+            "f_named_storm_factor": 1.09,
+            "SelectionCriteria": {
+                "id": 65,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/28/2018 4:51:40 PM"
+            }
+        },
+        "PriorLossesFactor": {
+            "i_company_business_id": 1070,
+            "i_number_of_losses": 0,
+            "f_other_perils_factor": 0.9,
+            "f_wind_hail_factor": 1.0,
+            "f_named_storm_factor": 1.0,
+            "SelectionCriteria": {
+                "id": 50,
+                "d_effective_date": "1/1/2019 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1008,
+                "d_last_modified": "2/26/2018 8:46:45 PM"
+            }
+        },
+        "DistanceToCoastFactor": {
+            "i_company_business_id": 1070,
+            "s_territory": "77581",
+            "s_microzone": "TX Brazoria",
+            "f_distance_min": 10.0,
+            "f_distance_max": 19.9999,
+            "f_other_perils_factor": 1.0,
+            "f_wind_hail_factor": 1.0,
+            "f_named_storm_factor": 0.607,
+            "SelectionCriteria": {
+                "id": 21363,
+                "d_effective_date": "4/1/2017 12:00:00 AM",
+                "b_expired": false,
+                "i_modified_by": 1,
+                "d_last_modified": "2/26/2018 8:22:16 PM"
+            }
+        },
+        "InspectionFee": [
+            {
+                "s_name": "Home Inspection",
+                "i_rounding": 2,
+                "f_value": 100.0,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            }
+        ],
+        "PolicyFee": {
+            "s_name": "Policy Fee",
+            "i_rounding": 2,
+            "f_value": 150.0,
+            "s_field_name": null,
+            "s_group_key": null,
+            "b_is_visible": true,
+            "b_is_waivable": true
+        },
+        "SurchargeFee": [
+            {
+                "s_name": "Surcharge Fee",
+                "i_rounding": 2,
+                "f_value": 0.0,
+                "s_field_name": null,
+                "s_group_key": null,
+                "b_is_visible": true,
+                "b_is_waivable": true
+            }
+        ]
+    },
+    "Worksheet": {
+        "Items": [
+            {
+                "i_sequence": 1,
+                "s_cause": "Wind Only Policy [False]",
+                "s_operation": "Initialize",
+                "s_columns": "1.000 0.000 1.000|1.00 0.00 1.00|1.00 0.00 1.00",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Totals": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                }
+            },
+            {
+                "i_sequence": 2,
+                "s_cause": "Zip Code Adjustment Factor",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 1.000 1.213|1.00 0.00 1.21|1.00 0.00 1.21",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 1.0,
+                    "f_named_storm": 1.213
+                },
+                "Premiums": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.213
+                },
+                "Totals": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.213
+                }
+            },
+            {
+                "i_sequence": 3,
+                "s_cause": "Rates for Brazoria County - TX Brazoria",
+                "s_operation": "Multiply",
+                "s_columns": "682.000 1.000 1658.000|682.00 0.00 2011.15|682.00 0.00 2011.15",
+                "Factors": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 1.0,
+                    "f_named_storm": 1658.0
+                },
+                "Premiums": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2011.154
+                },
+                "Totals": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2011.154
+                }
+            },
+            {
+                "i_sequence": 4,
+                "s_cause": "12.25 miles to coast - range 10-19.9999",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 1.000 0.607|682.00 0.00 1220.77|682.00 0.00 1220.77",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 1.0,
+                    "f_named_storm": 0.607
+                },
+                "Premiums": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1220.77051
+                },
+                "Totals": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1220.77051
+                }
+            },
+            {
+                "i_sequence": 5,
+                "s_cause": "Occupancy - Primary",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|682.00 0.00 1220.77|682.00 0.00 1220.77",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1220.77051
+                },
+                "Totals": {
+                    "f_other_perils": 682.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1220.77051
+                }
+            },
+            {
+                "i_sequence": 6,
+                "s_cause": "Coverage A on $619,000.00",
+                "s_operation": "Multiply",
+                "s_columns": "1.889 0.000 1.889|1288.57 0.00 2306.52|1288.57 0.00 2306.52",
+                "Factors": {
+                    "f_other_perils": 1.88940012,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.88940012
+                },
+                "Premiums": {
+                    "f_other_perils": 1288.57092,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2306.524
+                },
+                "Totals": {
+                    "f_other_perils": 1288.57092,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2306.524
+                }
+            },
+            {
+                "i_sequence": 7,
+                "s_cause": "Coverage B - 25% of $619,000.00",
+                "s_operation": "Multiply",
+                "s_columns": "1.055 0.000 1.077|1359.44 0.00 2484.13|1359.44 0.00 2484.13",
+                "Factors": {
+                    "f_other_perils": 1.055,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.077
+                },
+                "Premiums": {
+                    "f_other_perils": 1359.44226,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2484.12622
+                },
+                "Totals": {
+                    "f_other_perils": 1359.44226,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2484.12622
+                }
+            },
+            {
+                "i_sequence": 8,
+                "s_cause": "Coverage C - 25% of $619,000.00",
+                "s_operation": "Multiply",
+                "s_columns": "0.915 0.000 0.920|1243.89 0.00 2285.40|1243.89 0.00 2285.40",
+                "Factors": {
+                    "f_other_perils": 0.915,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.92
+                },
+                "Premiums": {
+                    "f_other_perils": 1243.88965,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2285.39624
+                },
+                "Totals": {
+                    "f_other_perils": 1243.88965,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2285.39624
+                }
+            },
+            {
+                "i_sequence": 9,
+                "s_cause": "Coverage D - 25% of $619,000.00",
+                "s_operation": "Multiply",
+                "s_columns": "1.025 0.000 1.025|1274.99 0.00 2342.53|1274.99 0.00 2342.53",
+                "Factors": {
+                    "f_other_perils": 1.025,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.025
+                },
+                "Premiums": {
+                    "f_other_perils": 1274.98682,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                },
+                "Totals": {
+                    "f_other_perils": 1274.98682,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                }
+            },
+            {
+                "i_sequence": 10,
+                "s_cause": "AOP Deductible - $1,000.00",
+                "s_operation": "Multiply",
+                "s_columns": "1.100 0.000 1.000|1402.49 0.00 2342.53|1402.49 0.00 2342.53",
+                "Factors": {
+                    "f_other_perils": 1.1,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                },
+                "Totals": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                }
+            },
+            {
+                "i_sequence": 11,
+                "s_cause": "NS Deductible - 2%",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1402.49 0.00 2342.53|1402.49 0.00 2342.53",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                },
+                "Totals": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                }
+            },
+            {
+                "i_sequence": 12,
+                "s_cause": "WH Deductible",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1402.49 0.00 2342.53|1402.49 0.00 2342.53",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                },
+                "Totals": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                }
+            },
+            {
+                "i_sequence": 13,
+                "s_cause": "Construction Type - Masonry-Veneer",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1402.49 0.00 2342.53|1402.49 0.00 2342.53",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                },
+                "Totals": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                }
+            },
+            {
+                "i_sequence": 14,
+                "s_cause": "Protection Class - 3",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1402.49 0.00 2342.53|1402.49 0.00 2342.53",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                },
+                "Totals": {
+                    "f_other_perils": 1402.48547,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2342.531
+                }
+            },
+            {
+                "i_sequence": 15,
+                "s_cause": "Year Built - 1982",
+                "s_operation": "Multiply",
+                "s_columns": "1.310 0.000 1.248|1837.26 0.00 2923.48|1837.26 0.00 2923.48",
+                "Factors": {
+                    "f_other_perils": 1.31,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.248
+                },
+                "Premiums": {
+                    "f_other_perils": 1837.25586,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2923.47876
+                },
+                "Totals": {
+                    "f_other_perils": 1837.25586,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2923.47876
+                }
+            },
+            {
+                "i_sequence": 16,
+                "s_cause": "Number of Stories - 1",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.075|1837.26 0.00 3142.74|1837.26 0.00 3142.74",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.075
+                },
+                "Premiums": {
+                    "f_other_perils": 1837.25586,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 3142.73975
+                },
+                "Totals": {
+                    "f_other_perils": 1837.25586,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 3142.73975
+                }
+            },
+            {
+                "i_sequence": 17,
+                "s_cause": "Square Footage - 4887",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 0.750|1837.26 0.00 2357.06|1837.26 0.00 2357.06",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.75
+                },
+                "Premiums": {
+                    "f_other_perils": 1837.25586,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2357.05469
+                },
+                "Totals": {
+                    "f_other_perils": 1837.25586,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2357.05469
+                }
+            },
+            {
+                "i_sequence": 18,
+                "s_cause": "Roof Covering - Asphalt shingle (55mph)",
+                "s_operation": "Multiply",
+                "s_columns": "1.020 0.000 1.000|1874.00 0.00 2357.06|1874.00 0.00 2357.06",
+                "Factors": {
+                    "f_other_perils": 1.02,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1874.001,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2357.05469
+                },
+                "Totals": {
+                    "f_other_perils": 1874.001,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2357.05469
+                }
+            },
+            {
+                "i_sequence": 19,
+                "s_cause": "Roof Shape - Flat Roof with Parapets",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.090|1874.00 0.00 2569.19|1874.00 0.00 2569.19",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.09
+                },
+                "Premiums": {
+                    "f_other_perils": 1874.001,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2569.1897
+                },
+                "Totals": {
+                    "f_other_perils": 1874.001,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2569.1897
+                }
+            },
+            {
+                "i_sequence": 20,
+                "s_cause": "Roof Age - 11-999 years",
+                "s_operation": "Multiply",
+                "s_columns": "1.079 0.000 1.153|2022.05 0.00 2962.28|2022.05 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.079,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.153
+                },
+                "Premiums": {
+                    "f_other_perils": 2022.047,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2022.047,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 21,
+                "s_cause": "ACV Roof - [False]",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|2022.05 0.00 2962.28|2022.05 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2022.047,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2022.047,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 22,
+                "s_cause": "Roof Exclusion - [False]",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|2022.05 0.00 2962.28|2022.05 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2022.047,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2022.047,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 23,
+                "s_cause": "Number of Prior Losses - 0",
+                "s_operation": "Multiply",
+                "s_columns": "0.900 0.000 1.000|1819.84 0.00 2962.28|1819.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.9,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 24,
+                "s_cause": "Wind Mitigation Devices - None/Unknown",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1819.84 0.00 2962.28|1819.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 25,
+                "s_cause": "Water Leak Detection - [False]",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1819.84 0.00 2962.28|1819.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 26,
+                "s_cause": "Theft & Fire Protective Devices - Local",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1819.84 0.00 2962.28|1819.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 27,
+                "s_cause": "Fully Sprinklered Home - [False]",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1819.84 0.00 2962.28|1819.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 28,
+                "s_cause": "Guard Gated Community - [False]",
+                "s_operation": "Multiply",
+                "s_columns": "1.000 0.000 1.000|1819.84 0.00 2962.28|1819.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 1.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 1.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1819.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 29,
+                "s_cause": "Coverage E at $300,000.00 - Primary",
+                "s_operation": "Add",
+                "s_columns": "50.000 0.000 0.000|1869.84 0.00 2962.28|1869.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 50.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1869.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1869.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 30,
+                "s_cause": "Coverage F  at $1,000.00",
+                "s_operation": "Add",
+                "s_columns": "5.000 0.000 0.000|1874.84 0.00 2962.28|1874.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 5.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 31,
+                "s_cause": "Premium meets $750 minimum",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1874.84 0.00 2962.28|1874.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 32,
+                "s_cause": "Extended Replacement Cost - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1874.84 0.00 2962.28|1874.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 33,
+                "s_cause": "Coverage C Special Perils - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1874.84 0.00 2962.28|1874.84 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1874.84229,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 34,
+                "s_cause": "Increased Ordinance & Law - 25% [Factor 1.050]",
+                "s_operation": "Add",
+                "s_columns": "90.992 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 90.99203,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 35,
+                "s_cause": "Utility Line Coverage - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 36,
+                "s_cause": "Mechanical Breakdown - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 37,
+                "s_cause": "Golf Carts - None",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 38,
+                "s_cause": "Identity Fraud Expense - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 39,
+                "s_cause": "Personal Injury - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 40,
+                "s_cause": "Water Backup - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 41,
+                "s_cause": "Loss Assessment - $5,000 (Included)",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 42,
+                "s_cause": "Increased Limits on BPP - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 43,
+                "s_cause": "Coverage C Increased Limits - Declined",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|1965.83 0.00 2962.28|1965.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 1965.83435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 44,
+                "s_cause": "Home Inspection",
+                "s_operation": "Add",
+                "s_columns": "100.000 0.000 0.000|2065.83 0.00 2962.28|2065.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 100.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2065.83447,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2065.83447,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 45,
+                "s_cause": "Policy Fee",
+                "s_operation": "Add",
+                "s_columns": "150.000 0.000 0.000|2215.83 0.00 0.00|2215.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 150.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2215.83447,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Totals": {
+                    "f_other_perils": 2215.83447,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 46,
+                "s_cause": "Surcharge Fee",
+                "s_operation": "Add",
+                "s_columns": "0.000 0.000 0.000|2215.83 0.00 0.00|2215.83 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.0,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2215.83447,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Totals": {
+                    "f_other_perils": 2215.83447,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 47,
+                "s_cause": "0.1500% Stamping Fee on Inspection Fee of $100",
+                "s_operation": "Add",
+                "s_columns": "0.150 0.000 0.000|2215.98 0.00 2962.28|2215.98 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.15,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2215.98438,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2215.98438,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 48,
+                "s_cause": "0.1500% Stamping Fee on Policy Fee of $150",
+                "s_operation": "Add",
+                "s_columns": "0.220 0.000 0.000|2216.20 0.00 2962.28|2216.20 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 0.22,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2216.20435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2216.20435,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 49,
+                "s_cause": "0.1500% Stamping Fee on Premium of $4,928",
+                "s_operation": "Add",
+                "s_columns": "7.390 0.000 0.000|2223.59 0.00 2962.28|2223.59 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 7.39,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2223.59424,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2223.59424,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 50,
+                "s_cause": "4.8500% State Tax on Inspection Fee of $100",
+                "s_operation": "Add",
+                "s_columns": "4.850 0.000 0.000|2228.44 0.00 2962.28|2228.44 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 4.85,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2228.44434,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2228.44434,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 51,
+                "s_cause": "4.8500% State Tax on Policy Fee of $150",
+                "s_operation": "Add",
+                "s_columns": "7.280 0.000 0.000|2235.72 0.00 2962.28|2235.72 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 7.28,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2235.72437,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2235.72437,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            },
+            {
+                "i_sequence": 52,
+                "s_cause": "4.8500% State Tax on Premium of $4,928",
+                "s_operation": "Add",
+                "s_columns": "239.010 0.000 0.000|2474.73 0.00 2962.28|2474.73 0.00 2962.28",
+                "Factors": {
+                    "f_other_perils": 239.01,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 0.0
+                },
+                "Premiums": {
+                    "f_other_perils": 2474.73438,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                },
+                "Totals": {
+                    "f_other_perils": 2474.73438,
+                    "f_wind_hail": 0.0,
+                    "f_named_storm": 2962.27563
+                }
+            }
+        ]
+    },
+    "PremiumOverrides": null,
+    "b_ok": true,
+    "Knockouts": null,
+    "Referrals": null,
+    "Redirects": null,
+    "History": {
+        "Message": [
+            "Start Rating : 2018-03-19T14:37:32",
+            "Start Rules  'TX_ICAT_HO3_CH_IN_CanBeRated': 2018-03-19T14:37:33",
+            "Start Rules  'Common_CanBeRated': 2018-03-19T14:37:33",
+            "Start Rules  'Common_RoofReferral': 2018-03-19T14:37:33",
+            "Finish Rules 'Common_RoofReferral': 2018-03-19T14:37:33 (109.528 milliseconds)",
+            "Start Rules  'Common_Required': 2018-03-19T14:37:33",
+            "Finish Rules 'Common_Required': 2018-03-19T14:37:33 (93.5845 milliseconds)",
+            "Finish Rules 'Common_CanBeRated': 2018-03-19T14:37:33 (406.2406 milliseconds)",
+            "Finish Rules 'TX_ICAT_HO3_CH_IN_CanBeRated': 2018-03-19T14:37:33 (468.7318 milliseconds)",
+            "Start loading data from 28 tables: 2018-03-19T14:37:33",
+            "Reading OtherPerilsTerritory table",
+            "Reading BaseRates table",
+            "Reading BaseFactors table",
+            "Reading ConstructionType table",
+            "Reading ConstructionFactor table",
+            "Reading ProtectionClassFactor table",
+            "Reading RoofMaterial table",
+            "Reading RoofAgeFactor table",
+            "Reading RoofCoveringFactor table",
+            "Reading RoofShape table",
+            "Reading RoofShapeFactor table",
+            "Reading CoverageA_Factor table",
+            "Reading CoverageB_Factor table",
+            "Reading CoverageC_Factor table",
+            "Reading CoverageD_Factor table",
+            "Reading HomeAgePerilsFactor table",
+            "Reading NamedStormDeductibleFactor table",
+            "Reading NumberOfStoriesFactor table",
+            "Reading OtherPerilsDeductibleFactor table",
+            "Reading PriorLossesFactor table",
+            "Reading SquareFootageFactor table",
+            "Reading OtherPerilsRelativities table",
+            "Reading DistanceToCoastFactor table",
+            "Reading YearBuiltRange table",
+            "Reading RoofAgeRange table",
+            "Reading NamedStormFactor table",
+            "Reading InspectionFees table",
+            "Reading BindingRestrictions table",
+            "Finish loading table data: 2018-03-19T14:37:35 (2296.8408 milliseconds), No errors encountered",
+            "Start Rules  'TX_ICAT_HO3_CH_IN_RatingEligibility': 2018-03-19T14:37:35",
+            "Start Rules  'Common_RatingEligibility': 2018-03-19T14:37:35",
+            "Finish Rules 'Common_RatingEligibility': 2018-03-19T14:37:36 (219.3273 milliseconds)",
+            "Start Rules  'TX_ICAT_HO3_CH_IN_RatingSteps': 2018-03-19T14:37:36",
+            "Start Rules  'Common_RatingSteps_AOP_NS': 2018-03-19T14:37:36",
+            "Start Rules  'Common_RatingSteps': 2018-03-19T14:37:36",
+            "Start Rules  'Common_OccupancyTypeFactor': 2018-03-19T14:37:36",
+            "Finish Rules 'Common_OccupancyTypeFactor': 2018-03-19T14:37:36 (109.3578 milliseconds)",
+            "Start Rules  'Common_CoverageB': 2018-03-19T14:37:36",
+            "Finish Rules 'Common_CoverageB': 2018-03-19T14:37:36 (78.1276 milliseconds)",
+            "Start Rules  'Common_CoverageC': 2018-03-19T14:37:36",
+            "Finish Rules 'Common_CoverageC': 2018-03-19T14:37:36 (78.1293 milliseconds)",
+            "Start Rules  'Common_CoverageD': 2018-03-19T14:37:36",
+            "Finish Rules 'Common_CoverageD': 2018-03-19T14:37:37 (93.741 milliseconds)",
+            "Start Rules  'Common_WindMitigation': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_WindMitigation': 2018-03-19T14:37:37 (109.3724 milliseconds)",
+            "Start Rules  'Common_TheftFireProtection': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_TheftFireProtection': 2018-03-19T14:37:37 (93.7503 milliseconds)",
+            "Start Rules  'Add Results.Premiums': 2018-03-19T14:37:37",
+            "Finish Rules 'Add Results.Premiums': 2018-03-19T14:37:37 (46.8835 milliseconds)",
+            "Start Rules  'Common_CoverageE': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_CoverageE': 2018-03-19T14:37:37 (203.1186 milliseconds)",
+            "Start Rules  'Common_CoverageF': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_CoverageF': 2018-03-19T14:37:37 (93.7467 milliseconds)",
+            "Start Rules  'Common_MinimumPremium': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_MinimumPremium': 2018-03-19T14:37:37 (78.1142 milliseconds)",
+            "Start Rules  'Common_ExtendedReplacementCost': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_ExtendedReplacementCost': 2018-03-19T14:37:37 (109.383 milliseconds)",
+            "Start Rules  'Common_IncreasedOrdinanceOrLaw': 2018-03-19T14:37:37",
+            "AOP Premium: $1,819.84 | ORD_Factor: 1.05",
+            "Increased Ordinance or Law - AOP: $90.99",
+            "Finish Rules 'Common_IncreasedOrdinanceOrLaw': 2018-03-19T14:37:37 (109.3819 milliseconds)",
+            "Start Rules  'Common_PersonalInjury': 2018-03-19T14:37:37",
+            "Finish Rules 'Common_PersonalInjury': 2018-03-19T14:37:38 (109.3672 milliseconds)",
+            "Start Rules  'Common_WaterBackup': 2018-03-19T14:37:38",
+            "Finish Rules 'Common_WaterBackup': 2018-03-19T14:37:38 (93.7463 milliseconds)",
+            "Start Rules  'Common_LossAssessment': 2018-03-19T14:37:38",
+            "Finish Rules 'Common_LossAssessment': 2018-03-19T14:37:38 (109.3722 milliseconds)",
+            "Start Rules  'Common_IncreasedLimitsBPP': 2018-03-19T14:37:38",
+            "Finish Rules 'Common_IncreasedLimitsBPP': 2018-03-19T14:37:38 (78.1231 milliseconds)",
+            "Start Rules  'Common_AdjustBasePremium': 2018-03-19T14:37:38",
+            "Finish Rules 'Common_AdjustBasePremium': 2018-03-19T14:37:38 (124.9932 milliseconds)",
+            "Start Rules  'Common_PolicyFee': 2018-03-19T14:37:38",
+            "Premium $2,501 to $7,500 - Policy Fee: $150",
+            "Finish Rules 'Common_PolicyFee': 2018-03-19T14:37:38 (93.7488 milliseconds)",
+            "Finish Rules 'Common_RatingSteps': 2018-03-19T14:37:38 (2765.5787 milliseconds)",
+            "Finish Rules 'Common_RatingSteps_AOP_NS': 2018-03-19T14:37:38 (2828.073 milliseconds)",
+            "Finish Rules 'TX_ICAT_HO3_CH_IN_RatingSteps': 2018-03-19T14:37:38 (2889.9972 milliseconds)",
+            "Finish Rules 'TX_ICAT_HO3_CH_IN_RatingEligibility': 2018-03-19T14:37:38 (3187.43 milliseconds)",
+            "No dynamic rating steps defined for this line of business",
+            "Finish Rating: 2018-03-19T14:37:38 (6062.4149 milliseconds)"
+        ]
+    }
+}
