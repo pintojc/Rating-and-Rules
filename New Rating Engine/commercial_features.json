@@ -9,6 +9,6 @@
         "exposure_type":"payroll",
         "exposure_amount":13300,
         "territory":"32535",
-        "package":false,
+        "package":false
     }
 }

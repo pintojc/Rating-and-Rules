@@ -1,0 +1,40 @@
+{
+    "name":"Minimum Premium Rule",
+    "carrier_id":1,
+    "root":"$.quote_features",
+    "rules":
+    {
+        "variables":[
+            "premium","minimum_premium", "minimum_premium_result"
+        ],
+        "steps":[
+           {
+               "name":"minium_premium_eligibility",
+               "type":"code",
+               "script":[                   
+                    "if premium < 5000:",
+                    "    minimum_premium_result = 'False'",
+                    "else:",
+                    "    minimum_premium_result = 'True'"
+                ],
+                "result_variable":"minimum_premium_result"
+            },
+            {
+                "name":"call Extender",
+                "type":"code",
+                "script":[                   
+                     "import sys",
+                     "sys.path.append('C:\\Users\\JohnPinto\\source\\local_projects\\Extender\\bin\\Debug\\netstandard2.0')",
+                     "import clr",
+                     "clr.AddReferenceToFile('Extender.dll')",
+                     "import Extender",
+                     "from Extender import FileExtender",
+                     "x = FileExtender()",
+                     "b = x.DoSomething('write script 4 to a file!')",
+                     "minimum_premium_result = b"
+                 ],
+                 "result_variable":"minimum_premium_result"
+            }
+        ]
+    }
+}

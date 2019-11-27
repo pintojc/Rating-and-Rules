@@ -1,0 +1,77 @@
+{
+    "name":"Valuation Rules",
+    "carrier_id":1,
+    "root":"$",
+    "rules":
+    {
+        "variables":[
+            "valuation","value","propertyValue_result", "selected_valuation", "max_property_value", "min_property_value",
+            "max_property_provider", "min_property_provider"
+        ],
+        "steps":[
+            {
+                "name":"set constants",
+                "type":"code",
+                "script":[
+                    "program_minimum = 100000"
+                 ],
+                 "result_variable":"program_minimum"
+             },
+           {
+               "name":"determine max property value",
+               "type":"code",
+               "script":[
+                   "max_property_value = valuation[0]['propertyValue']", 
+                   "max_property_provider = valuation[0]['provider']",                  
+                    "for d in valuation:",
+                    "     if d['propertyValue'] >= max_property_value:",
+                    "          max_property_value = d['propertyValue']",
+                    "          max_property_provider = d['provider'].ToString()"
+                ],
+                "result_variable":"max_property_value"
+            },
+            {
+                "name":"determine min property value",
+                "type":"code",
+                "script":[
+                    "min_property_value = valuation[0]['propertyValue']", 
+                    "min_property_provider = valuation[0]['provider']",                  
+                     "for d in valuation:",
+                     "     if d['propertyValue'] <= min_property_value:",
+                     "          min_property_value = d['propertyValue']",
+                     "          min_property_provider = d['provider'].ToString()"
+                 ],
+                 "result_variable":"min_property_value"
+            },
+            {
+                "name":"set floor",
+                "type":"code",
+                "script":[
+                    "if min_property_value < program_minimum:", 
+                    "   min_property_value = program_minimum"
+                 ],
+                 "result_variable":"min_property_value"
+            },
+            {
+                "name":"call Extender5",
+                "type":"code",
+                "script":[                   
+                     "import sys",
+                     "sys.path.append('C:\\Users\\JohnPinto\\source\\local_projects\\Extender\\bin\\Debug\\netstandard2.0')",
+                     "import clr",
+                     "clr.AddReferenceToFile('Extender.dll')",
+                     "import Extender",
+                     "from Extender import FileExtender",
+                     "x = FileExtender()",
+                     "z = 'min property provider is '",
+                     "z += min_property_provider",
+                     "z += ' max property provider is '",
+                     "z += max_property_provider",
+                     "b = x.DoSomething(z)",
+                     "minimum_premium_result = b"
+                 ],
+                 "result_variable":"minimum_premium_result"
+            }
+        ]
+    }
+}

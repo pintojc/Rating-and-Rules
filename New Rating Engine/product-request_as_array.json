@@ -1,0 +1,44 @@
+{
+  "quote_number":123445,
+  "quote_features":
+  [
+    {
+        "line_of_business":"GL",
+        "product":"builders risk",
+        "carrier":"CBIC",
+        "risk_state":"AZ",
+        "risk_zip":85001,
+        "premium":10000.00,
+        "year_business_started":2018,
+        "number_of_claims":0,
+        "risk_classification":[
+        {
+            "class_code":8010,
+            "exposure_type":"receipts",
+            "exposure_amount":200000,
+            "premium":2500
+        },
+        {
+            "class_code":9004,
+            "exposure_type":"receipts",
+            "exposure_amount":200000,
+            "premium":5000
+        },
+        {
+            "class_code":10005,
+            "exposure_type":"receipts",
+            "exposure_amount":200000,
+            "premium":10000
+        }
+        ],
+        "coverages":[
+        {
+            "name":"General Liability",
+            "limit":1000000,
+            "deductibles":1000,
+            "type":"Per Occ, Aggregate,POC"
+        }
+        ]
+    }
+  ]
+}

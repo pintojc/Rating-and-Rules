@@ -1,0 +1,100 @@
+{
+    "name":"Product Eligibility",
+    "carrier_id":1,
+    "root":"$.quote_features",
+    "rules":
+    {
+        "variables":[
+            "line_of_business", "product", "risk_state", "premium", "year_business_started", "number_of_claims", "risk_classification", "coverages",
+            "state_eligible_result", "losses_result", "years_in_business_result", "eligibility_result", "is_eligible",
+            "class_code", "class_code_eligibility"
+        ],
+        "lookups":[],
+        "steps":[
+           {
+            "name":"load_vars",
+            "type":"code",
+            "script":[
+                "eligibility_result = 'True'"
+            ],
+             "result_variable":"eligibility_result"
+         },
+         {
+            "name":"state_eligibility",
+            "type":"code",
+            "script":[
+                "if risk_state == 'AZ':",
+                "     state_eligible_result = 'True'",
+                "else:",
+                "     state_eligible_result = 'False'",
+                "     eligibility_result = state_eligible_result"
+            ],
+            "result_variable":"state_eligible_result"
+            },
+            {
+                "name":"losses_eligibility",
+                "type":"code",
+                "script":[
+                    "if number_of_claims == 0:",
+                    "     losses_result = 'True'",
+                    "else:",
+                    "     losses_result = 'False'",
+                    "     eligibility_result = losses_result"
+                ],
+                "result_variable":"losses_result"
+            },
+            {
+                "name":"years_in_business_eligibility",
+                "type":"code",
+                "script":[
+                    "import datetime",
+                    "now = datetime.datetime.now()",
+                    "if year_business_started < now.year:",
+                    "     years_in_business_result = 'True'",
+                    "else:",
+                    "     years_in_business_result = 'False'",
+                    "     eligibility_result = years_in_business_result"
+                ],
+                "result_variable":"years_in_business_result"
+            },
+            {
+                "name":"class_code_eligibility",
+                "type":"code",
+                "script":[
+                    "for code in risk_classification:",
+                    "     if code['class_code']==8003:",
+                    "          class_code_eligibility = 'True'",
+                    "     else:",
+                    "          class_code_eligibility = 'False'",
+                    "          eligibility_result = class_code_eligibility"
+                ],
+                "result_variable":"class_code_eligibility"
+            },
+            {
+                "name":"call minimum_premium_eligibility script",
+                "type":"script",
+                "script":[
+                    "c:\\users\\johnpinto\\desktop\\script2.json"
+                ],
+                "result_variable":"minimum_premium_result"
+            },
+            {
+                "name":"update eligibility minimum_premium_eligibility",
+                "type":"code",
+                "script":[
+                    "if minimum_premium_result == 'False':",
+                    "     eligibility_result = minimum_premium_result"
+                ],
+                "result_variable":"minimum_premium_result"
+            },
+            {
+                "name":"elegibility_result",
+                "type":"code",
+                "script":[
+                    "is_eligible = eligibility_result"
+                ],
+                "result_variable":"is_eligible"
+            }
+        ]
+    }
+}

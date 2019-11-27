@@ -1,0 +1,38 @@
+{
+    "location": {
+        "street1": "116 Roosevelt Parkway",
+        "street2": "",
+        "city": "Jackson",
+        "state": "TN",
+        "zip": "38301",
+        "county": "Madison County",
+        "fullAddress": "116 Roosevelt Parkway, Jackson, TN 38301, USA",
+        "raw": ""
+    },
+    "structure": {
+        "yearBuilt": 2000,
+        "squareFootage": 976.0,
+        "value": 108643.0,
+        "numberOfFamilies": 0,
+        "numberOfStories": 1,
+        "constructionType": "Frame",
+        "homeStyle": "1 Story"
+    },
+    "valuation": [
+        {
+            "provider": "CoreLogic",
+            "referenceId": "ESTIMATE-0103307",
+            "propertyValue": 108643.0
+        },
+        {
+            "provider": "E2Value",
+            "referenceId": "N/A",
+            "propertyValue": 82000.0
+        },
+        {
+            "provider": "ZillowService",
+            "referenceId": "41808488",
+            "propertyValue": 58154.0
+        }
+    ]
+}

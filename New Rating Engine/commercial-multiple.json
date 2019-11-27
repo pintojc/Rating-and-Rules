@@ -1,0 +1,28 @@
+{
+    "quote_id":123455,
+    "quote_features":
+    {
+        "quote_company_id":1064,
+        "effective_date":"3/28/2018",
+        "class_code":99507,
+        "years_in_business":5,
+        "exposure_type":"payroll",
+        "exposure_amount":13300,
+        "territory":"32535",
+        "package":false,
+        "locations":[
+            {
+                "location_number":1,
+                "class_code":8308,
+                "exposure_type":"payroll",
+                "exposure_amount":13300
+            },
+            {
+                "location_number":10,
+                "class_code":8308,
+                "exposure_type":"payroll",
+                "exposure_amount":13300
+            }
+        ]
+    }
+}

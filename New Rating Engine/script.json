@@ -4,36 +4,19 @@
     "rules":
     {
         "variables":[
-            "year_built","roof_age", "year_built_result", "roof_age_result", "roof_year_built_result"
+            "premium","minimum_premium", "minimum_premium_result"
         ],
         "steps":[
            {
-               "name":"year_built",
+               "name":"minium_premium",
                "script":[
-"import json",                   
-"if year_built < 1945:",
-"    year_built_result = 'False'",
-"else:",
-"    year_built_result = 'True'"
-],
-                "result_variable":"year_built_result"
-            },
-            {
-                "name":"roof_age",
-                "script":[
-"if roof_age < 30:",
-"     roof_age_result = 'False'",
-"else:",
-"     roof_age_result = 'True'"
+                    "import json",                   
+                    "if premium < 5000:",
+                    "    minimum_premium_result = 'False'",
+                    "else:",
+                    "    minimum_premium_result = 'True'"
                 ],
-                "result_variable":"roof_age_result"
-            },
-            {
-                "name":"roof_age",
-                "script":[
-"roof_year_built_result = roof_age * year_built"
-                ],
-                "result_variable":"roof_year_built_result"
+                "result_variable":"minimum_premium_result"
             }
         ]
     }

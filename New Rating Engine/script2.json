@@ -1,0 +1,23 @@
+{
+    "name":"Minimum Premium Rule",
+    "carrier_id":1,
+    "rules":
+    {
+        "variables":[
+            "premium","minimum_premium", "minimum_premium_result"
+        ],
+        "steps":[
+           {
+               "name":"minium_premium",
+               "script":[
+                    "import json",                   
+                    "if premium < 5000:",
+                    "    minimum_premium_result = 'False'",
+                    "else:",
+                    "    minimum_premium_result = 'True'"
+                ],
+                "result_variable":"minimum_premium_result"
+            }
+        ]
+    }
+}

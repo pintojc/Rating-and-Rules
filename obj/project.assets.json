@@ -4931,26 +4931,23 @@
   },
   "packageFolders": {
     "C:\\Users\\JohnPinto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JohnPinto\\source\\local_projects\\rules\\rules.csproj",
+      "projectUniqueName": "c:\\Users\\JohnPinto\\source\\local_projects\\local_projects\\rating-and-rules\\rules.csproj",
       "projectName": "rules",
-      "projectPath": "C:\\Users\\JohnPinto\\source\\local_projects\\rules\\rules.csproj",
+      "projectPath": "c:\\Users\\JohnPinto\\source\\local_projects\\local_projects\\rating-and-rules\\rules.csproj",
       "packagesPath": "C:\\Users\\JohnPinto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JohnPinto\\source\\local_projects\\rules\\obj\\",
+      "outputPath": "c:\\Users\\JohnPinto\\source\\local_projects\\local_projects\\rating-and-rules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\JohnPinto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

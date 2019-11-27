@@ -1,0 +1,98 @@
+{
+    "name":"GL Rater",
+    "carrier_id":1,
+    "rules":
+    {
+        "variables":[
+            "class_code","years_in_business", "exposure_type", "exposure_amount", "territory", "package",
+            "lc_var", "lcm_var", "base_rate_result", "ilf_var", "ded_var", "net_result", "pkg_var", "pkg_mod_var", 
+            "mod_var", "rate_result","basis_var", "premium_result", "factor_lookup_result", "total_premium", "locations", "location_numbers"
+        ],
+        "lookups":[
+            {
+                "lookup_name":"BaseRates",
+                "lookup_map":[
+                    {
+                        "source":"quote_company_id",
+                        "column":"i_company_business_id"
+                    },
+                    {
+                        "source":"effective_date",
+                        "column":"d_effective_date"
+                    },
+                    {
+                        "source":"territory",
+                        "column":"s_territory"
+                    }
+                ]
+            }
+        ],
+        "steps":[
+           {
+            "name":"load_vars",
+            "type":"script",
+            "script":[
+"lc_var=2.100",
+"lcm_var=1.850",
+"ilf_var=1.680",
+"ded_var=.019",
+"pkg_var=1.000",
+"pkg_mod_var=1.000",
+"mod_var=1.000",
+"basis_var=1000",
+"factor_lookup_result = 'True'"
+],
+             "result_variable":"factor_lookup_result"
+         },
+         {
+               "name":"calc_base_rate",
+               "type":"script",
+               "script":[
+"base_rate_result = lc_var*lcm_var"
+],
+                "result_variable":"base_rate_result"
+            },
+            {
+                "name":"calc_net_rate",
+                "type":"script",
+                "script":[
+"net_result = base_rate_result * (ilf_var - ded_var)"
+                ],
+                "result_variable":"net_result"
+            },
+            {
+                "name":"calc_rate_result",
+                "type":"script",
+                "script":[
+"rate_result = net_result * pkg_var * pkg_mod_var * mod_var"
+                ],
+                "result_variable":"rate_result"
+            },
+            {
+                "name":"calc_premium_result",
+                "type":"script",
+                "script":[
+"premium_result = (rate_result * float(exposure_amount)) / basis_var"
+                ],
+                "result_variable":"premium_result"
+            },
+            {
+                "name":"total_premium_result",
+                "type":"script",
+                "script":[
+"total_premium = (otherPerilsVar + windHailVar) * namedStormVar"
+                ],
+                "result_variable":"total_premium"
+            },
+            {
+                "name":"total_premium_result",
+                "type":"loop",
+                "feature":"locations",
+                "script":[
+"location_numbers += location['number']"
+                ],
+                "result_variable":"location_numbers"
+            }
+        ]
+    }
+}

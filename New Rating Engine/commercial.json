@@ -6,7 +6,7 @@
         "variables":[
             "class_code","years_in_business", "exposure_type", "exposure_amount", "territory", "package",
             "lc_var", "lcm_var", "base_rate_result", "ilf_var", "ded_var", "net_result", "pkg_var", "pkg_mod_var", 
-            "mod_var", "rate_result","basis_var", "premium_result", "factor_lookup_result"
+            "mod_var", "rate_result","basis_var", "premium_result", "factor_lookup_result", "total_premium", "locations", "location_numbers"
         ],
         "lookups":[
             {
@@ -77,12 +77,12 @@
                 "result_variable":"premium_result"
             },
             {
-                "name":"calc_premium_result",
+                "name":"total_premium_result",
                 "type":"script",
                 "script":[
-"factor_lookup_result = (otherPerilsVar + windHailVar) * namedStormVar"
+"total_premium = (otherPerilsVar + windHailVar) * namedStormVar"
                 ],
-                "result_variable":"factor_lookup_result"
+                "result_variable":"total_premium"
             }
         ]
     }

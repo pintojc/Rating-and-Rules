@@ -87,7 +87,7 @@ namespace rules
             string query = createQuery(table, target_column_query, filter_query);
             
             SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "";
+            conn.ConnectionString = "Data Source=aui-prd-sql.database.windows.net;Initial Catalog=Lookups;User Id=ITP.DAL;Password=myOffice7452;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
             conn.Open();
 
  //           string[] columnRestrictions = new string[4];
